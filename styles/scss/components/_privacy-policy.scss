@@ -1,0 +1,59 @@
+.privacy-h1 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  color: #242526;
+}
+.privacy-grey {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
+  color: #6f7381;
+  &--upper {
+    text-transform: uppercase;
+  }
+}
+.privacy-h2 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 28px;
+  color: #242526;
+}
+.privacy-h3 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+
+  color: #242526;
+}
+.privacy-h4 {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #242526;
+}
+.privacy-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #242526;
+}
+.privacy-img {
+  margin-right: 16px;
+}
+.text-container {
+  max-width: 888px;
+  margin: 0 auto;
+  @include media-tablet {
+    max-width: 340px;
+  }
+}

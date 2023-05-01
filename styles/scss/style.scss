@@ -1,0 +1,22 @@
+// fonts
+@import url("https://fonts.googleapis.com/css?family=Manrope:regular,400,600");
+@import url("https://fonts.googleapis.com/css?family=Space Mono:regular,italic,400,600,800");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,400,600");
+
+// templates
+@import "templates/vars";
+@import "templates/mixins";
+@import "templates/common";
+
+// components
+@import "components/header";
+@import "components/h1-block";
+@import "components/main-img-wr";
+@import "components/about";
+@import "components/clients";
+@import "components/slider";
+@import "components/card";
+@import "components/footer";
+@import "components/popup";
+@import "components/mobile-menu";
+@import "components/privacy-policy";

@@ -1,0 +1,99 @@
+.popup-wr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 999;
+}
+.popup {
+  z-index: 999;
+  position: fixed;
+  top: 21%;
+  padding: 40px 65px;
+  background-image: url(../../img/bg_card.png);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 12px solid #efefef;
+  box-shadow: 0px 15px 152px rgba(0, 0, 0, 0.07);
+  border-radius: 40px;
+  margin: 0 20px;
+  & :not(:last-child) {
+    margin-bottom: 24px;
+  }
+  @include media-tablet {
+    padding: 24px;
+  }
+  &__close-btn {
+    position: absolute;
+    top: 13px;
+    right: 20px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 110%;
+    text-align: center;
+    color: #242526;
+    @include media-tablet {
+      font-size: 28px;
+      line-height: 120%;
+    }
+  }
+  &__input {
+    width: 442px;
+    height: 46px;
+    padding: 12px 16px;
+    background: #ffffff;
+    border: 1px solid #e1e3e4;
+    border-radius: 12px;
+    @include media-tablet {
+      width: 263px;
+    }
+    &::placeholder {
+      font-size: 16px;
+      line-height: 140%;
+      /* or 22px */
+      display: flex;
+      align-items: center;
+      color: #b0b1ba;
+    }
+  }
+  &__conditions-wr {
+    display: flex;
+    @include media-tablet {
+      width: 263px;
+    }
+  }
+  &__checkbox {
+    background: #ffffff;
+    border: 1px solid #e1e3e4;
+    border-radius: 5px;
+    height: 20px;
+    width: 20px;
+    margin-right: 16px;
+  }
+  &__conditions {
+    font-size: 14px;
+    line-height: 140%;
+    /* or 20px */
+    color: #242526;
+    & a {
+      color: #242526;
+      text-decoration: underline;
+    }
+  }
+  &__btn {
+    background: #3784ff;
+    border-radius: 12px;
+    padding: 12px 24px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: "Space Mono";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+  }
+}

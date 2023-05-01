@@ -1,0 +1,87 @@
+a,a:hover,a:link,a:visited
+{
+	text-decoration: none;
+}
+*,textarea
+{
+	border: none;
+}
+:active,:focus,a:active,a:focus,button:active,button:focus,input:active,input:focus,textarea
+{
+	outline: 0;
+}
+*
+{
+	font-family: Manrope;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+}
+*,::after,::before
+{
+	box-sizing: border-box;
+}
+a,a:link,a:visited
+{
+	display: inline-block;
+}
+aside,footer,header,legend,main,nav,section
+{
+	display: block;
+}
+h1,h2,h3,h4,h5,h6,p
+{
+	font-size: inherit;
+	font-weight: inherit;
+}
+ul,ul li
+{
+	list-style: none;
+}
+img
+{
+	vertical-align: top;
+}
+img,svg
+{
+	height: auto;
+	max-width: 100%;
+}
+address
+{
+	font-style: normal;
+}
+button,input,select,textarea
+{
+	background-color: transparent;
+	color: inherit;
+	font-family: inherit;
+	font-size: inherit;
+}
+input::-ms-clear
+{
+	display: none;
+}
+button,input[type=submit]
+{
+	background: 0 0;
+	box-shadow: none;
+	cursor: pointer;
+	display: inline-block;
+}
+button::-moz-focus-inner
+{
+	border: 0;
+	padding: 0;
+}
+label
+{
+	cursor: pointer;
+}
+textarea
+{
+	box-shadow: none;
+	moz-box-shadow: none;
+	overflow: auto;
+	webkit-box-shadow: none;
+}

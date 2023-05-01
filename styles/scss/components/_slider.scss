@@ -1,0 +1,45 @@
+.slider__holder {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.slider__slide {
+  position: relative;
+  opacity: 0.5;
+}
+
+.slider__slide-img {
+  max-width: calc(100% - 40px);
+  display: block;
+  margin: 0 auto;
+}
+
+.slider__slide-label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #efefef;
+  border-radius: 40px;
+  transform: rotate(-3.99deg);
+  padding: 10px 22px;
+  & p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    color: #242526;
+  }
+}
+
+.slider__slide.current {
+  opacity: 1;
+}
+.slider__title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 110%;
+  /* identical to box height, or 44px */
+  text-align: center;
+  color: #242526;
+  margin-bottom: 32px;
+}
